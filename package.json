@@ -1,12 +1,16 @@
 {
   "name": "neoplasm-api-gateway",
   "author": {
-    "name": "Pavel", 
-    "email": "pavel@neoplasm.xyz",
-    "url": "https://nroplasm.xyz"
+    "name": "Pavel",
+    "email": "pavel@neoplasm.xyz"
   },
+  "homepage": "https://neoplasm.xyz",
   "version": "0.1.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nplsm/neopalsm-api-gateway"
+  },
   "keywords": [
     "NEOPLASM",
     "graphql",
@@ -15,7 +19,7 @@
     "api"
   ],
   "description": "Neoplasm GraphQL API gateway",
-  "main": "src/gateway.js", 
+  "main": "src/gateway.js",
   "private": true,
   "dependencies": {
     "@apollo/gateway": "^0.21.0",
